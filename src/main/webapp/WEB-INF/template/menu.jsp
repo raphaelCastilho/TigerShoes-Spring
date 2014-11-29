@@ -63,7 +63,7 @@
 					<div class="panel-body">
 						<table class="table">
 							<tr>
-								<td><a href="http://www.jquery2dotnet.com">Cadastrar</a></td>
+								<td><a href="cadastrarCliente">Cadastrar</a></td>
 							</tr>
 							<tr>
 								<td><a href="http://www.jquery2dotnet.com">Entrar</a></td>

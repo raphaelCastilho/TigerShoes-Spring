@@ -13,8 +13,8 @@ public class Cliente {
 	private String nome;
 	private String cpf;
 	private String email;
-	private String telefone;
 	private String senha;
+	
 	public String getNome() {
 		return nome;
 	}
@@ -32,12 +32,6 @@ public class Cliente {
 	}
 	public void setEmail(String email) {
 		this.email = email;
-	}
-	public String getTelefone() {
-		return telefone;
-	}
-	public void setTelefone(String telefone) {
-		this.telefone = telefone;
 	}
 	public String getSenha() {
 		return senha;
