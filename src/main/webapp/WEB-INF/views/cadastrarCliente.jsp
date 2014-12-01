@@ -10,32 +10,28 @@
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="textinput">Nome</label>
 						<div class="col-sm-10">
-							<input type="text" placeholder="Nome"
-								class="form-control">
+							<input type="text" name="nome" placeholder="Nome" class="form-control">
 						</div>
 					</div>
 					
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="textinput">CPF</label>
 						<div class="col-sm-10">
-							<input type="text" placeholder="CPF"
-								class="form-control">
+							<input type="text" name="cpf" placeholder="CPF" class="form-control">
 						</div>
 					</div>
 					
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="textinput">E-mail</label>
 						<div class="col-sm-10">
-							<input type="email" placeholder="exemplo@exemplo.com"
-								class="form-control">
+							<input type="email" name="email" placeholder="exemplo@exemplo.com" class="form-control">
 						</div>
 					</div>
 					
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="textinput">Senha</label>
 						<div class="col-sm-10">
-							<input type="password" placeholder="Senha"
-								class="form-control">
+							<input type="password" name="senha" placeholder="Senha" class="form-control">
 						</div>
 					</div>
 						
@@ -48,8 +44,7 @@
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="textinput">Rua</label>
 						<div class="col-sm-10">
-							<input type="text" placeholder="Endereço"
-								class="form-control">
+							<input type="text" name="rua" placeholder="Endereço" class="form-control">
 						</div>
 					</div>
 
@@ -57,7 +52,7 @@
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="textinput">Cidade</label>
 						<div class="col-sm-10">
-							<input type="text" placeholder="Cidade" class="form-control">
+							<input type="text" name="cidade" placeholder="Cidade" class="form-control">
 						</div>
 					</div>
 
@@ -65,12 +60,12 @@
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="textinput">Estado</label>
 						<div class="col-sm-4">
-							<input type="text" placeholder="Estado" class="form-control">
+							<input type="text" name="estado" placeholder="Estado" class="form-control">
 						</div>
 
 						<label class="col-sm-2 control-label" for="textinput">CEP</label>
 						<div class="col-sm-4">
-							<input type="text" placeholder="CEP" class="form-control">
+							<input type="text" name="cep" placeholder="CEP" class="form-control">
 						</div>
 					</div>
 
@@ -78,7 +73,7 @@
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="textinput">País</label>
 						<div class="col-sm-10">
-							<input type="text" placeholder="País" class="form-control">
+							<input type="text" name="pais" placeholder="País" class="form-control">
 						</div>
 					</div>
 

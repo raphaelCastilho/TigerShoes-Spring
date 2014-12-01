@@ -1,8 +1,10 @@
 package br.com.granbery.tigershoes.model;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 
 @Entity
 public class Endereco {
@@ -16,6 +18,8 @@ public class Endereco {
 	private String cep;
 	private String pais;
 	
+	@OneToOne(mappedBy="endereco", cascade=CascadeType.ALL)
+	private Cliente cliente;
 	
 	public Long getId() {
 		return id;
@@ -52,6 +56,12 @@ public class Endereco {
 	}
 	public void setPais(String pais) {
 		this.pais = pais;
+	}
+	public Cliente getCliente() {
+		return cliente;
+	}
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
 	}
 	
 }
