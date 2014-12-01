@@ -26,6 +26,7 @@ public class ClienteController {
 		ClienteDAO.getInstace().persistCliente(cliente);
 		
 		mv.addObject("message", message);
+		mv.addObject("nome", cliente.getNome());
 		return mv;
 	}
 }
