@@ -1,21 +1,23 @@
 package br.com.granbery.tigershoes.model;
 
-import java.util.List;
-
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 @Entity
 public class Produto {
 	
-	@Id
+	@Id @GeneratedValue
 	private int id;
 	private String marca;
 	private String modelo;
 	private String numero;
 	private String preco;
 	
-	private List<ProdutoItem> itens;
+	@ManyToOne(cascade = CascadeType.ALL)
+	private ProdutoItem produtoItem;
 	
 	public int getId() {
 		return id;
